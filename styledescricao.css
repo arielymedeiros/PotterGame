@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #14242B;
+  height: 120px;
+}
+
+h1{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #A2815F;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 2rem;
+}
+
+.container{
+  width: 100%;
+  height: 450px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #242523;
+}
+
+p{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-right: 80px;
+  padding-left: 80px;
+  margin: 20px;
+  text-align: justify;
+  line-height: 35px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #A2815F;
+}
+
+.botao{
+  padding: 10px;
+  margin: 5px;
+  font-size: 15px;
+  border: 1px solid #cac6c6;
+  border-radius: 20px;
+  background-color: #14242B;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+}
+
+.botão a{
+  color: #A2815F;
+  ;   
+
+}
+.botao a:visited{
+  color: #A2815F;
+}
+
+footer{
+  background-color: #14242B;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+.copyright{
+  padding: 5px;
+  font-size: 12px;
+  color: antiquewhite;
+}

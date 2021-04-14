@@ -1,0 +1,96 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.containerHeader{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #14242B;
+  height: 120px;
+}
+
+.logo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #A2815F;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 2rem;
+}
+
+.containerMain{
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #242523
+}
+
+.contexto{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-right: 80px;
+  padding-left: 80px;
+  margin: 20px;
+  text-align: justify;
+  line-height: 35px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #A2815F;
+}
+
+.selecaoPersonagem{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 15px;
+}
+
+.personagens{
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+
+img {
+  height: 48px;
+}
+
+.nome{
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color: #A2815F;
+  text-decoration: none;
+}
+
+footer{
+  background-color: #14242B;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: baseline;
+  text-align: center;
+  width: 100%;
+}
+
+.copyright{
+  padding: 20px;
+  font-size: 12px;
+  color: antiquewhite;
+}
